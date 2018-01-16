@@ -51,4 +51,10 @@ class CalculatorTest extends TestCase
         $value = $this->calc->divide(4, 2);
         $this->assertEquals($value, 2);
     }
+
+    public function testDivisorCanNotBeZero()
+    {
+        $this->expectException(\InvalidArgumentException::class);
+        $this->calc->divide(4, 0);
+    }
 }
