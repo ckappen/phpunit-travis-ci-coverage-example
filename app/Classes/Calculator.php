@@ -10,8 +10,8 @@ class Calculator
     /**
      * Add two numbers.
      *
-     * @param $x
-     * @param $y
+     * @param int $x
+     * @param int $y
      *
      * @return mixed
      */
@@ -23,8 +23,8 @@ class Calculator
     /**
      * Multiply two numbers.
      *
-     * @param $x
-     * @param $y
+     * @param int $x
+     * @param int $y
      *
      * @return mixed
      */
@@ -36,8 +36,8 @@ class Calculator
     /**
      * Subtract two numbers.
      *
-     * @param $x
-     * @param $y
+     * @param int $x
+     * @param int $y
      *
      * @return mixed
      */
@@ -49,8 +49,8 @@ class Calculator
     /**
      * Divide two numbers.
      *
-     * @param $x
-     * @param $y
+     * @param int $x
+     * @param int $y
      *
      * @return float
      */

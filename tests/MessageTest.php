@@ -27,5 +27,9 @@ class MessageTest extends TestCase
         $this->assertInstanceOf(Message::class, $this->message);
     }
 
+    public function testMessageOfTheDayReturn() {
+        $this->assertEquals('An apple a day, keeps the doctor away', $this->message->getMessageOfTheDay());
+    }
+
 
 }
