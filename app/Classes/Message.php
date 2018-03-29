@@ -13,7 +13,7 @@ class Message
     /**
      * Message constructor.
      *
-     * @param string $language
+     * @param $language
      */
     public function __construct($language)
     {
